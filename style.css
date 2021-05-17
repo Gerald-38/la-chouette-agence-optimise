@@ -99,6 +99,23 @@ a:hover {
     background-attachment: fixed;
 }
 
+#citation-author
+{
+    font-size: 1em;
+    font-style: normal;
+    color: #575757!important;
+}
+
+#citation-text {
+    font-size: 1.3em;
+    font-style: italic;
+    color: #575757;
+}
+
+.text-img {
+    font-size: 1.6em;
+}
+
 .d-bloc {
     color: rgba(255, 255, 255, .7);
 }
