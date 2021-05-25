@@ -728,6 +728,10 @@ h2 {
     line-height: 1.4em;
 }
 
+#lowerh2 {
+    color: #FFFF;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
