@@ -2,10 +2,17 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+
+	<title>Formulaire de contact - La Chouette Agence</title>
+
+	<meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
+    <meta name="description" content="Entreprise de webdesign située à Lyon, la Chouette Agence vous propose son expertise pour vous aider dans la création ou la refonte de votre site web">
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<code><meta name="robots" content="index, follow"></code>
+
+	<link rel="canonical" href="https://gerald-38.github.io/la-chouette-agence-optimise/contact-entreprise-webdesign.html" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -19,7 +26,28 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.min.js"></script>
-    <title>Contactez nous</title>
+    
+	<!-- Open Graph meta pour Facebook et LinkedIn -->
+	<meta property="og:title" content="Formulaire de contact - La Chouette Agence" />
+	<meta property="og:url" content="https://lilimly.github.io/la_chouette_agence/contact-webdesigner-lyon.html" />
+	<meta property="og:image" content="img_opengraph/opengraph2.png" />
+	<meta property="og:description" content="Pour contacter notre équipe de web designers basés à Lyon et vous aider à créer ou optimiser le site web de votre entreprise, remplissez ce formulaire !" />
+	<meta property="og:site_name" content="La chouette agence" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image:alt" content="Travail d'un designer">
+
+	<!-- Card meta pour Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@lachouetteagence">
+	<meta name="twitter:title" content="Formulaire de contact - La Chouette Agence" />
+	<meta name="twitter:description" content="Pour contacter notre équipe de web designers basés à Lyon et vous aider à créer ou optimiser le site web de votre entreprise, remplissez ce formulaire !" />
+
+	<!-- Epingle Pinterest -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Formulaire de contact - La Chouette Agence" />
+	<meta property="og:description" content="Pour contacter notre équipe de web designers basés à Lyon et vous aider à créer ou optimiser le site web de votre entreprise, remplissez ce formulaire !" />
+	<meta property="og:url" content="https://lilimly.github.io/la_chouette_agence/contact-webdesigner-lyon.html" />
+	<meta property="og:site_name" content="La chouette agence" />   
 
     
 <!-- Analytics -->
@@ -49,7 +77,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="Contact.html.html">Contact</a>
+						<a href="contact-entreprise-webdesign.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -83,27 +111,20 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
+						<label for="name">Nom</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
+						<label for="email">Adresse email</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="input_504">Comment nous avez-vous connu ?</label>
+						<input class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
